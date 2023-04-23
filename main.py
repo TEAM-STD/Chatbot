@@ -23,7 +23,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
-        await message.reply_text("Hi! My name is TG QUEEN 👸")
+        await message.reply_text("ᴛʜᴀɴᴋs ғᴏʀ sᴛᴀʀᴛᴇᴅ ᴍᴇ. \n ɪ ᴀᴍ 24x7 ᴀᴄᴛɪᴠᴇ ᴛᴏ ᴄʜᴀᴛ ᴡɪᴛʜ ʏᴏᴜ \n ɪғ ɴᴏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴘʟs ᴊᴏɪɴ:- @VIP_CREATORS")
 
 
 @bot.on_message(
