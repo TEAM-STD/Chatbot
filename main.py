@@ -23,7 +23,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
-        await message.reply_text("Hi! My name is Ansh [Disha Ka BF](https://t.me/DishaChatai")
+        await message.reply_text("Hi! My name is Ansh [Disha Ka BF](https://t.me/DishaChatai)")
 
 
 @bot.on_message(
